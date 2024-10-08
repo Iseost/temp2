@@ -4,7 +4,7 @@ on: [workflow_dispatch]
 
 env:
   ## Sets environment variable
-  {% raw %}
+  {% raw %},
   MEANING_OF_LIFE: ${{secrets.MEANING_OF_LIFE}}    
   {% endraw %}
 jobs:
